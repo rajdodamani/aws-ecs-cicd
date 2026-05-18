@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('CI/CD Pipeline - AWS ECS deployment working fine!!');
+  res.send('CI/CD Pipeline - AWS ECS deployment - Images are tagged with git commit hash - Task definition is updated with new image URI');
 });
 
 module.exports = app;
