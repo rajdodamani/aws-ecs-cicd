@@ -36,4 +36,4 @@ jobs:
 
       - name: Force new deployment on AWS ECS
         run: |
-          aws ecs update-service --cluster nice-giraffe-z2wwvq --service task-definition-ecs-cicd-app-service-aobodi2j --force-new-deployment
+          aws ecs update-service --cluster essential-bat-r590r0 --service task-definition-ecs-cicd-app-service-w25cz345 --force-new-deployment
